@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Verantwoording</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">  
+    <style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){background-color: #A2A2A2
+}
+
+th {
+    background-color: #818181;
+    color: white;
+}
+</style>
+<script>
+    $(function() {
+
+    $('[data-popup-open]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+ 
+        e.preventDefault();
+    });
+    
+    $('[data-popup-close]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-close');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+ 
+        e.preventDefault();
+    });
+});
+    
+    </script>
+</head>
+<body>
+    
+<header>
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="aarde.html">Aarde</a></li>
+  <li><a href="maan.html">Maan</a></li>
+  <li><a href="zon.html">Zon</a></li>
+  <li><a href="melkweg.html">Melkweg</a></li>
+</ul>
+</nav>    
+</header>
+
+   <div class="video-background">
+     <div class="video-foreground">
+     <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ"></iframe>
+     </div>
+   </div>   
+
+<div class="vid-info">
+<h1>Verantwoording</h1>
+<table>
+  <tr>
+    <th>Toegepaste functionaliteit</th>
+    <th>Waar te vinden op website</th>
+  </tr>
+  <tr>
+    <td>Embedded CSS</td>
+    <td>Op deze pagina, voor de tabel</td>
+  </tr>
+  <tr>
+    <td>Inline Css</td>
+    <td>Maria Anders</td>
+  </tr>
+  <tr>
+    <td>CSS property1</td>
+    <td>Francisco Chang</td>
+  </tr>
+  <tr>
+    <td>CSS property2</td>
+    <td>Roland Mendel</td>
+  </tr>
+   <tr>
+    <td>CSS property3</td>
+    <td>Francisco Chang</td>
+  </tr>
+  <tr>
+    <td>CSS property4</td>
+    <td>Roland Mendel</td>
+  </tr>
+   <tr>
+    <td>CSS property5</td>
+    <td>Francisco Chang</td>
+  </tr>
+  <tr>
+    <td>CSS property6</td>
+    <td>Roland Mendel</td>
+  </tr>
+  <tr>
+    <td>HR en MARK</td>
+    <td>Yoshi Tannamuri</td>
+  </tr>
+  <tr>
+    <td>aside</td>
+    <td>Yoshi Tannamuri</td>
+  </tr>
+  <tr>
+    <td>Class</td>
+    <td>Span</td>
+  </tr>
+  <tr>
+    <td>Span</td>
+    <td>Yoshi Tannamuri</td>
+  </tr>
+  <tr>
+    <td>Interacctiviteit met JQuery</td>
+    <td>Yoshi Tannamuri</td>
+  </tr>
+  <tr>
+    <td>Drie extra informatiebronnen met omschrijvingen</td>
+    <td>Giovanni Rovelli</td>
+  </tr>
+  <tr>
+    <td>Foto's / filmpjes</td>
+    <td>Giovanni Rovelli</td>
+  </tr>
+</table>
+</div>
+</div>
+    
+    
+    <footer><strong>Designed by Shayan Pouragheli 2016 &copy; </strong><a class="footertext" href="#"> Verantwoording </a></footer>
+</body>
+</html>

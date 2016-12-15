@@ -1,0 +1,180 @@
+* { 
+    box-sizing: border-box;
+    color: #FFF;
+    text-align: center;
+    font-weight: bolder;
+}
+
+footer {
+    position: absolute;
+    top: 360vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin:0;
+}
+
+header {
+    width: 60%;
+    margin: 0 auto;
+    z-index: 2;
+}
+.header-li {
+    float: left;
+    width: 25%;
+}
+
+.header-link {
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    padding-top: 30vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.section-title {
+    margin-top: 50vh;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.scroll-gif {
+    width: 20%;
+}
+
+#first {
+    background-image: url("/IMG/slider1.jpg");
+}
+
+#second {
+    top: 160vh;
+    background-image: url("/IMG/l-univers-23.jpg");
+}
+
+#second-text {
+    margin-top: 15vh;
+}
+
+.section-paragraph {
+    margin-top: 10vh;
+    font-family: "fjalla one", sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-background {
+    background: #000;
+    position: absolute;
+    top: 260vh; 
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.boxes {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    top: 100vh;
+}
+
+.boxes-half {
+    width: 50%;
+    height: 100%;    
+    position: relative;
+    opacity: 0;
+    background-color: #6b6b6b;
+}
+
+#box-one {
+    float: left;
+}
+
+#box-two {
+    float: right;
+}
+
+/*
+.boxes:after {
+    position: absolute; top: 0px;
+    content:'';    
+    z-index: -1;
+    height: 100%;
+    width: 50%;
+    background: #D25A1E;
+}
+#box-one:after {    
+    right: 0;
+    transform-origin: bottom right;
+    transform: skewX(-20deg);
+}
+#box-two:after {    
+    left: 0;
+    transform-origin: top left;
+    transform: skewX(-20deg);
+}
+*/
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+}
+
+.nav-links {
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.footertext:link, a:visited  {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.footertext:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
